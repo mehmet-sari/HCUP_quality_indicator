@@ -1,4 +1,4 @@
-### HCUP Quality Indicators
+### HCUP Inpatient Quality Indicators
 AHRQ provides free software for assigning quality indicators to inpatient records.
 Unfortunately, AHRQ provides only two softwares; 
 
