@@ -10,9 +10,9 @@ This program is written in stata. I converted SAS program to Stata do file. SAS 
 
 #### The structure of the Do files
 #### 1. Hcup_quality_indicator_ICD10.do
-It includes both ICD-10 format and hospital measure. For now it works for inpatient data as of year 2015 and Q4.  ICD-9 will be added soon to cover before that time. 
+It includes both ICD-10 format and hospital measure. For now it works for inpatient data as of 4. quarter of 2015 (ICD-9 will be added soon to cover before that time.For now there are two seperate do files.) 
 It is written as program so it needs to be called by another do file which shows which datafile will be used as an input.
 #### 2. Hcup_quality_indicator_ICD9.do
-It converts the discharge data and create IQI indicators for ICD-9. It works for any HCUP SID until 2015q1q3 (including the 3. quarter). 
+It creates IQI indicators for ICD-9. It works for any HCUP SID until 2015q1q3 (including the 3. quarter). 
 #### 2. IQI_quality_final.do
 This do file, as an example, shows which states and years would be used as an input for Hcup_quality_indicator_ICD10.do and Hcup_quality_indicator_ICD9.do file. The user need to list states and years in the first two lines or can customize it. 
