@@ -6,7 +6,7 @@ Unfortunately, AHRQ provides only two softwares;
 2. WinQI
 
 SAS QI is SAS program which requires SAS software to run while WinQI requires a windows operating system to run. For researchers who store the HCUP data in their servers or don't have access to SAS and Windows, there is a need for third option. 
-This program is written in stata. I converted SAS program to Stata do file. 
+This program is written in stata. I converted SAS program to Stata do file. SAS program can be found in the HCUP website.
 
 #### The structure of the Do files
 #### 1. Hcup_quality_indicator_ICD10.do
